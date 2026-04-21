@@ -60,7 +60,7 @@ The graph maps the relationships between Articles 9–18 and Article 51 of the E
 
 ```bash
 pip install notebook        # or jupyterlab
-jupyter notebook Untitled0.ipynb
+jupyter notebook AI-BASED_PHISHING_EMAIL_SECURITY.ipynb
 ```
 
 Run the cell; the graph renders via `IPython.display.HTML`.
@@ -85,7 +85,7 @@ An active internet connection is required for the graph to render.
 
 ```
 .
-├── Untitled0.ipynb    # Main notebook — single self-contained cell
+├── AI-BASED_PHISHING_EMAIL_SECURITY.ipynb    # Main notebook — single self-contained cell
 ├── README.md          # This file
 └── requirements.txt   # Python dependencies
 ```
