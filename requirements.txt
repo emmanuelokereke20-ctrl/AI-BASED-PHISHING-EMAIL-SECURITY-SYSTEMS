@@ -1,0 +1,30 @@
+# EU AI Act Requirements Graph — Python Dependencies
+#
+# This notebook uses only Python standard library modules plus IPython,
+# which is bundled with every Jupyter / Google Colab runtime.
+# No third-party pip installs are required to run the notebook.
+#
+# If you are setting up a fresh local environment, install the minimal
+# Jupyter stack below.
+
+# ── Jupyter / IPython runtime ─────────────────────────────────────────
+# Pick ONE of the following depending on your preferred interface:
+
+notebook>=7.0.0          # Classic Jupyter Notebook (jupyter notebook)
+# jupyterlab>=4.0.0      # JupyterLab (jupyter lab) — uncomment to prefer
+
+ipython>=8.0.0           # Required for IPython.display.HTML / display()
+
+# ── Google Colab extra (auto-present in Colab; only needed locally) ───
+# google-colab            # Provides google.colab.output — Colab only,
+#                         # not available via pip for local installs.
+#                         # The notebook handles ImportError gracefully.
+
+# ── Standard library modules used (no install needed) ─────────────────
+# json      — serialises graph node/edge data to JSON for D3
+# (no others)
+
+# ── Frontend / CDN dependency (loaded at runtime, not via pip) ─────────
+# D3.js v7.8.5
+# https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js
+# Requires an active internet connection when the notebook cell is run.
